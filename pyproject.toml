@@ -1,0 +1,16 @@
+[project]
+name = "gym-super-mario-bros"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gym>=0.26.2",
+    "gymnasium>=1.2.3",
+    "nes-py>=8.2.1",
+    "numpy<2.0",
+    "opencv-python-headless>=4.11.0.86",
+]
+
+[tool.uv.sources]
+nes-py = { git = "https://github.com/kumikaya/nes-py.git" }
